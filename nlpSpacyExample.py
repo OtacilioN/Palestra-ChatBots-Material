@@ -1,3 +1,7 @@
+# Before execute run
+# pip install -U spacy
+# python -m spacy download pt
+
 import spacy
 utf8stdout = open(1, 'w', encoding='utf-8',
                   closefd=False)
